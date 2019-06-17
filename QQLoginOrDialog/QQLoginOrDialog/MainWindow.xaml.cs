@@ -35,10 +35,10 @@ namespace QQLoginOrDialog
 
         }
 
-        private void Login_Click(object sender, RoutedEventArgs e)
+        private void Login_Click(object sender, RoutedEventArgs e)      //登录按钮
         {
-            LoginFrame.Visibility = Visibility.Collapsed;
-            DialogFrame.Visibility = Visibility.Visible;
+            LoginFrame.Visibility = Visibility.Collapsed;       //折叠登录界面
+            DialogFrame.Visibility = Visibility.Visible;        //显示聊天界面
         }
 
         private void Register_Click(object sender, RoutedEventArgs e)
