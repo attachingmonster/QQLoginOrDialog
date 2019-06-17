@@ -70,10 +70,10 @@ namespace QQLoginOrDialog
         {
 
         }
-
-        private void Button_Click_4(object sender, RoutedEventArgs e)
+        private void Button_Click_4(object sender, RoutedEventArgs e)       //关闭按钮
         {
-
+            LoginFrame.Visibility = Visibility.Visible;                     //显示登陆界面
+            DialogFrame.Visibility = Visibility.Collapsed;                  //折叠对话界面
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
