@@ -37,10 +37,15 @@ namespace QQLoginOrDialog
 
         private void Login_Click(object sender, RoutedEventArgs e)      //登录按钮
         {
-            if (cbxUserName.ToString() == "1473072427" & tbxPassword.ToString() == "123")   //账号密码检测是否正确
+            if (cbxUserName.Text == "1473072427" & tbxPassword.Text == "123")   //账号密码检测是否正确
             {
                 LoginFrame.Visibility = Visibility.Collapsed;       //折叠登录界面
                 DialogFrame.Visibility = Visibility.Visible;        //显示聊天界面
+                MessageBox.Show("登录成功，进入聊天！");                      //显示登录成功
+            }
+            else
+            {
+                MessageBox.Show("账号或密码错误！");                //显示登录失败
             }
         }
 
@@ -54,17 +59,7 @@ namespace QQLoginOrDialog
 
         }
 
-        private void Button_Click_2(object sender, RoutedEventArgs e)
-        {
-
-        }
-
         private void Button_Click_1(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void SE_Click(object sender, RoutedEventArgs e)
         {
 
         }
@@ -79,17 +74,59 @@ namespace QQLoginOrDialog
             DialogFrame.Visibility = Visibility.Collapsed;                  //折叠对话界面
         }
 
+
+
+        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void MinButton_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void ExitButton_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Show_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void ModifyButton_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
         private void Button_Click(object sender, RoutedEventArgs e)
         {
 
         }
 
-        private void Button_Click_3(object sender, RoutedEventArgs e)
+        private void Sending_Click(object sender, RoutedEventArgs e)
         {
 
         }
 
-        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
+        private void Min_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Max_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Exit0_Click(object sender, RoutedEventArgs e)
+        {
+            
+        }
+
+        private void Spread_Click(object sender, RoutedEventArgs e)
         {
 
         }
