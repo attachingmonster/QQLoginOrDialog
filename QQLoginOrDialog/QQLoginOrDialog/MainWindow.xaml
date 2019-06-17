@@ -108,7 +108,7 @@
             <Button Margin="304,247,311,0" Grid.Row="1" BorderBrush="{x:Null}" Background="Transparent" RenderTransformOrigin="11.151,0.984"/>
             <Button Margin="606,247,0,0" Grid.Row="1" BorderBrush="{x:Null}" Background="Transparent"/>
             <TextBox Grid.Row="2" Margin="0,0,0,10" BorderBrush="{x:Null}" TextChanged="TextBox_TextChanged"/>
-            <Button Margin="415,72,145,22" Grid.Row="2" RenderTransformOrigin="0.392,0.401" Content="关闭(C)" Click="Button_Click_4"/>
+            <Button Margin="415,72,145,22" Grid.Row="2" RenderTransformOrigin="0.392,0.401" Content="关闭(C)" Click="Exit_Click"/>
             <Button Margin="528,72,32,22" Grid.Row="2" RenderTransformOrigin="0.392,0.401" Content="发送(S)" Click="Button_Click"/>
             <Button Margin="55,0,43,0" Grid.Column="1" BorderBrush="{x:Null}" Background="Transparent" Click="Button_Click_1"/>
             <Button Margin="80,0,0,0" Grid.Column="1" BorderBrush="{x:Null}" Background="Transparent" HorizontalAlignment="Left" Width="20" Click="Button_Click_3"/>

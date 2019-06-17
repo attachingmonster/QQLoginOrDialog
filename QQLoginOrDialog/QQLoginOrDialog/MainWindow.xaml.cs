@@ -37,8 +37,11 @@ namespace QQLoginOrDialog
 
         private void Login_Click(object sender, RoutedEventArgs e)      //登录按钮
         {
-            LoginFrame.Visibility = Visibility.Collapsed;       //折叠登录界面
-            DialogFrame.Visibility = Visibility.Visible;        //显示聊天界面
+            if (zhanghao.ToString() == "1473072427" & password.ToString() == "123")
+            {
+                LoginFrame.Visibility = Visibility.Collapsed;       //折叠登录界面
+                DialogFrame.Visibility = Visibility.Visible;        //显示聊天界面
+            }
         }
 
         private void Register_Click(object sender, RoutedEventArgs e)
@@ -70,7 +73,7 @@ namespace QQLoginOrDialog
         {
 
         }
-        private void Button_Click_4(object sender, RoutedEventArgs e)       //关闭按钮
+        private void Exit_Click(object sender, RoutedEventArgs e)       //关闭按钮
         {
             LoginFrame.Visibility = Visibility.Visible;                     //显示登陆界面
             DialogFrame.Visibility = Visibility.Collapsed;                  //折叠对话界面
