@@ -18,8 +18,8 @@
                 <RowDefinition Height="110*"></RowDefinition>
                 <RowDefinition Height="99*"></RowDefinition>
             </Grid.RowDefinitions>
-            <ComboBox x:Name="zhanghao" Grid.Column="1" Margin="102,8,76,66" IsEditable="True" SelectionChanged="ComboBox_SelectionChanged" FontSize="25" Grid.Row="1"  />
-            <TextBox x:Name="password" Grid.Column="1" Margin="102,54,76,20" Grid.Row="1" TextChanged="Password_TextChanged"   FontSize="25" />
+            <ComboBox x:Name="cbxUserName" Grid.Column="1" Margin="102,8,76,66" IsEditable="True" SelectionChanged="ComboBox_SelectionChanged" FontSize="25" Grid.Row="1"  />
+            <TextBox x:Name="tbxPassword" Grid.Column="1" Margin="102,54,76,20" Grid.Row="1" TextChanged="Password_TextChanged"   FontSize="25" />
             <Image Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="3" Margin="0,-28,0,33">
                 <Image.Source>
                     <BitmapImage UriSource="C:\Users\Dell\Source\Repos\QQlogin\QQ1.jpg"/>

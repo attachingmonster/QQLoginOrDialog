@@ -37,7 +37,7 @@ namespace QQLoginOrDialog
 
         private void Login_Click(object sender, RoutedEventArgs e)      //登录按钮
         {
-            if (zhanghao.ToString() == "1473072427" & password.ToString() == "123")
+            if (cbxUserName.ToString() == "1473072427" & tbxPassword.ToString() == "123")   //账号密码检测是否正确
             {
                 LoginFrame.Visibility = Visibility.Collapsed;       //折叠登录界面
                 DialogFrame.Visibility = Visibility.Visible;        //显示聊天界面
