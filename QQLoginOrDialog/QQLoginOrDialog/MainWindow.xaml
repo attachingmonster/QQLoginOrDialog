@@ -6,7 +6,26 @@
         xmlns:local="clr-namespace:QQLoginOrDialog"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
+   <Grid >
+    <Grid Margin="0,0,-0.4,-9" x:Name="Login">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="46*"/>
+            <RowDefinition Height="97*"/>
+        </Grid.RowDefinitions>
+
+        <Button Margin="293,201.586,294,25" Background="BlueViolet"  FontSize="20" BorderBrush="{x:Null}" Foreground="Black" Click="Button_Click" Content="登录" FontWeight="Bold" Grid.Row="1" />
+        <Button Margin="0,249.586,669,0" Click="Button_Click_1" Content="注册账号" Background="Transparent" Grid.Row="1" ></Button>
+        <ComboBox Margin="271,63.586,263,184" SelectionChanged="ComboBox_SelectionChanged" Grid.Row="1"></ComboBox>
+        <CheckBox Margin="271,154.586,454,98" Checked="CheckBox_Checked" Content="自动登录" Grid.Row="1"></CheckBox>
+        <CheckBox Margin="357,154.586,368,98" Content="记住密码" Grid.Row="1"/>
+        <Button Margin="451,147.586,263,105" Content="找回密码" Background="Transparent" Grid.Row="1"></Button>
+        <TextBox Margin="271,102.586,263,150" FontSize="18" Grid.Row="1" />
+        <Image Margin="0,0,0,272.8" Grid.RowSpan="2" RenderTransformOrigin="0.571,0.326" >
+            <Image.Source>
+                <BitmapImage UriSource="C:\Users\纸飞机\Desktop\vs\1.png"/>
+            </Image.Source>
+        </Image>
     </Grid>
+        
+   </Grid>
 </Window>
