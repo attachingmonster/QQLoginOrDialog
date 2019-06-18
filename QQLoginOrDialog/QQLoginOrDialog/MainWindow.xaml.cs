@@ -28,7 +28,7 @@ namespace QQLoginOrDialog
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             Login.Visibility = Visibility.Collapsed;
-           
+            
 
         }
 
