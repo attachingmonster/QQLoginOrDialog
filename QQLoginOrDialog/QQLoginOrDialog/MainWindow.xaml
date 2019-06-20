@@ -22,13 +22,13 @@
             <TextBox x:Name="tbxPassword" Grid.Column="1" Margin="102,54,76,20" Grid.Row="1" TextChanged="Password_TextChanged"   FontSize="25" />
             <Image Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="3" Margin="0,-28,0,33">
                 <Image.Source>
-                    <BitmapImage UriSource="C:\Users\Dell\Source\Repos\QQlogin\QQ1.jpg"/>
+                    <BitmapImage UriSource="images/QQ1.jpg"/>
                 </Image.Source>
             </Image>
             <Button Grid.Column="2" Grid.Row="0" Margin="83,0,57,155" Background="Transparent" BorderBrush="{x:Null}" Click="MinButton_Click"/>
             <Image Margin="133,71,128,10" Grid.Column="1" RenderTransformOrigin="10,10" Stretch="Fill" >
                 <Image.Source>
-                    <BitmapImage UriSource="C:\Users\Dell\Source\Repos\QQlogin\touxiang.jpg"/>
+                    <BitmapImage UriSource="images/touxiang.jpg"/>
                 </Image.Source>
                 <Image.Clip>
                     <RectangleGeometry  RadiusX="150" RadiusY="150" Rect="50,50,50,50" />
@@ -37,12 +37,12 @@
             <Button Grid.Column="2" Grid.Row="0" Margin="137,0,0,155" Background="Transparent" BorderBrush="{x:Null}" Click="ExitButton_Click"/>
             <Image Grid.Column="1" Margin="55,11,329,66" Grid.Row="1">
                 <Image.Source>
-                    <BitmapImage UriSource="C:\Users\Dell\Source\Repos\QQlogin\QQ2.jpg"/>
+                    <BitmapImage UriSource="images/QQ2.jpg"/>
                 </Image.Source>
             </Image>
             <Image RenderTransformOrigin="1.43,0.761" Grid.Column="1" Margin="55,52,329,21" Grid.Row="1">
                 <Image.Source>
-                    <BitmapImage UriSource="C:\Users\Dell\Source\Repos\QQlogin\pass.jpg"/>
+                    <BitmapImage UriSource="images/pass.jpg"/>
                 </Image.Source>
             </Image>
             <CheckBox Grid.Column="1" Margin="55,0,289,70" Grid.Row="2" RenderTransformOrigin="0.5,0.5" FontSize="15" Content="自动登录"/>
@@ -52,14 +52,14 @@
             <Button x:Name="btnLogin" Grid.Column="1" Grid.Row="2" FontSize="20" Content="登录" Background="DeepSkyBlue" BorderBrush="{x:Null}" Margin="55,36,81,20" Click="Login_Click"/>
             <Image Grid.Column="2" Margin="137,36,0,0" Grid.Row="2">
                 <Image.Source>
-                    <BitmapImage UriSource="C:\Users\Dell\Source\Repos\QQlogin\erweima.jpg"/>
+                    <BitmapImage UriSource="images/erweima.jpg"/>
                 </Image.Source>
             </Image>
             <Button x:Name="btn_Erweima" Grid.Column="2" Margin="137,40,0,-4" Grid.Row="2" RenderTransformOrigin="0.5,0.5" Background="Transparent" BorderBrush="{x:Null}" Click="Erweima_Click" HorizontalAlignment="Left" Width="57"/>
 
             <Image x:Name="img_Ewm" Margin="10,0,27,-4" Grid.ColumnSpan="3" Grid.RowSpan="3" Height="423" VerticalAlignment="Bottom" Visibility="Hidden">
                 <Image.Source>
-                    <BitmapImage UriSource="C:\Users\Dell\Source\Repos\QQlogin\QQ3.jpg"></BitmapImage>
+                    <BitmapImage UriSource="images/QQ3.jpg"></BitmapImage>
                 </Image.Source>
             </Image>
             <Button Name="Show" Margin="25,11,80,64" Grid.Column="2" Grid.Row="1" Background="Transparent" BorderBrush="{x:Null}" FontSize="20" Click="Show_Click" Content="显示信息"></Button>
@@ -80,12 +80,12 @@
             <TextBox Grid.Column="0" Grid.Row="0" Background="DeepSkyBlue" FontSize="20" HorizontalContentAlignment="Center" Text="你的好友"/>
             <Image Grid.ColumnSpan="3" Margin="381,0,-219,0">
                 <Image.Source>
-                    <BitmapImage UriSource="C:\Users\Dell\Source\Repos\QQliaotian\QQ.jpg"/>
+                    <BitmapImage UriSource="images/QQ.jpg"/>
                 </Image.Source>
             </Image>
             <Image Margin="0,247,0,0" Grid.Row="1">
                 <Image.Source>
-                    <BitmapImage UriSource="C:\Users\Dell\Source\Repos\QQliaotian\QQ1.jpg"/>
+                    <BitmapImage UriSource="images/QQ1.jpg"/>
                 </Image.Source>
             </Image>
             <Image Margin="321,117,-164,111" Grid.Row="1" RenderTransformOrigin="0.593,-1.238" Grid.ColumnSpan="3">

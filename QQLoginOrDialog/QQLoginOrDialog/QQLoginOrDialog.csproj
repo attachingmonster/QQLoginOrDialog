@@ -94,5 +94,20 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\erweima.jpg" />
+    <Resource Include="images\pass.jpg" />
+    <Resource Include="images\QQ 3.jpg" />
+    <Resource Include="images\QQ 4.jpg" />
+    <Resource Include="images\QQ 5.jpg" />
+    <Resource Include="images\QQ.jpg" />
+    <Resource Include="images\QQ1.jpg" />
+    <Resource Include="images\QQ2.jpg" />
+    <Resource Include="images\QQ3.jpg" />
+    <Resource Include="images\T%40QTM_%291YZ5BRZ`TC3%40JULT.png" />
+    <Resource Include="images\touxiang.jpg" />
+    <Resource Include="images\zhuce.jpg" />
+    <Resource Include="images\zhuce1.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
