@@ -90,7 +90,7 @@
             </Image>
             <Image Margin="321,117,-164,111" Grid.Row="1" RenderTransformOrigin="0.593,-1.238" Grid.ColumnSpan="3">
                 <Image.Source>
-                    <BitmapImage UriSource="C:\Users\Dell\Source\Repos\QQliaotian\QQ2.jpg"/>
+                    <BitmapImage UriSource="images/QQ2.jpg"/>
                 </Image.Source>
             </Image>
             <Button Margin="0,247,606,0" Grid.Row="1" BorderBrush="{x:Null}" Background="Transparent">
