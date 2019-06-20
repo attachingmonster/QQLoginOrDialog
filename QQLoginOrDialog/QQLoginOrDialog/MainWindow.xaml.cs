@@ -23,19 +23,19 @@ namespace QQLoginOrDialog
         public MainWindow()
         {
             InitializeComponent();
-            cbxUserName.ItemsSource = zhanghaos;
-            cbxUserName.SelectedValuePath = "Key";
-            cbxUserName.DisplayMemberPath = "Key";
+            cbxUserName.ItemsSource = zhanghaos;     //将键值对添加到cbxUsserName中
+            cbxUserName.SelectedValuePath = "Key";      //Combox下拉栏中显示的值
+            cbxUserName.DisplayMemberPath = "Key";      //Combox下拉栏中选中后实际显示的值
         }
-        Dictionary<string, string> zhanghaos = new Dictionary<string, string>()
+        Dictionary<string, string> zhanghaos = new Dictionary<string, string>()     //创建键值对
             {
-                {"2645296273","123"},
+                {"1473072427","123"},
                 {"2638456801","456"},
-                {"1473072427","789"}
+                {"2645296273","789"}
             };
         private void ComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            tbxPassword.Text = ((KeyValuePair<string, string>)cbxUserName.SelectedItem).Value;
+            tbxPassword.Text = ((KeyValuePair<string, string>)cbxUserName.SelectedItem).Value;      //当cbxUserName被选中了值（即键Key），让tbxPassword框显示被选中值对应的密码（即值Value）
         }
 
         private void Password_TextChanged(object sender, TextChangedEventArgs e)
