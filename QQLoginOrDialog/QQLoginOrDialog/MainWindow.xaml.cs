@@ -35,7 +35,7 @@ namespace QQLoginOrDialog
             };
         private void ComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            tbxPassword.Text = ((KeyValuePair<string, string>)cbxUserName.SelectedItem).Value;      //当cbxUserName被选中了值（即键Key），让tbxPassword框显示被选中值对应的密码（即值Value）
+            tbxPassword.Password = ((KeyValuePair<string, string>)cbxUserName.SelectedItem).Value;      //当cbxUserName被选中了值（即键Key），让tbxPassword框显示被选中值对应的密码（即值Value）
         }
 
         private void Password_TextChanged(object sender, TextChangedEventArgs e)
@@ -45,7 +45,8 @@ namespace QQLoginOrDialog
 
         private void Login_Click(object sender, RoutedEventArgs e)      //登录按钮
         {
-            if (cbxUserName.Text == "1473072427" & tbxPassword.Text == "123")   //账号密码检测是否正确
+            if (zhanghaos.ContainsKey(cbxUserName.Text) & zhanghaos.ContainsValue(tbxPassword.Password))   //账号密码检测是否正确
+
             {
                 LoginFrame.Visibility = Visibility.Collapsed;       //折叠登录界面
                 DialogFrame.Visibility = Visibility.Visible;        //显示聊天界面
