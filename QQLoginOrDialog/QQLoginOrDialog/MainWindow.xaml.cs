@@ -23,11 +23,19 @@ namespace QQLoginOrDialog
         public MainWindow()
         {
             InitializeComponent();
+            cbxUserName.ItemsSource = zhanghaos;
+            cbxUserName.SelectedValuePath = "Key";
+            cbxUserName.DisplayMemberPath = "Key";
         }
-
+        Dictionary<string, string> zhanghaos = new Dictionary<string, string>()
+            {
+                {"2645296273","123"},
+                {"2638456801","456"},
+                {"1473072427","789"}
+            };
         private void ComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-
+            tbxPassword.Text = ((KeyValuePair<string, string>)cbxUserName.SelectedItem).Value;
         }
 
         private void Password_TextChanged(object sender, TextChangedEventArgs e)
