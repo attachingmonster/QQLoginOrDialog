@@ -7,27 +7,29 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="559.647" Width="945.166">
     <Grid Margin="0,0,3.4,-1.6" >
-        <Grid Margin="0,0,68.6,82" x:Name="Login">
+        <Grid x:Name="Login">
             <Grid.RowDefinitions>
                 <RowDefinition Height="46*"/>
                 <RowDefinition Height="97*"/>
             </Grid.RowDefinitions>
 
-            <Button Margin="330,304.2,259.6,-78.4" Background="BlueViolet"  FontSize="20" BorderBrush="{x:Null}" Foreground="Black" Click="Button_Click" Content="登录" FontWeight="Bold" Grid.Row="1" />
-            <Button Margin="0,330.2,669.6,-81.4" Click="Button_Click_1" Content="注册账号" FontSize="25" Background="Transparent" Grid.Row="1" ></Button>
-            <ComboBox Margin="291,60.2,242.6,187.6" SelectionChanged="ComboBox_SelectionChanged" Grid.Row="1"></ComboBox>
-            <CheckBox Margin="238,207.2,487.6,45.6" Checked="CheckBox_Checked" Content="自动登录" FontSize="25" Grid.Row="1"></CheckBox>
-            <CheckBox Margin="384,207.2,341.6,45.6" Content="记住密码" FontSize="25" Grid.Row="1"/>
-            <Button Margin="485,174.2,151.6,33.6" Content="找回密码" FontSize="25" Background="Transparent" Grid.Row="1"></Button>
-            <TextBox Margin="291,117.2,242.6,134.6" FontSize="18" Grid.Row="1" />
-            <Image Margin="0,0,-88.4,249.6" RenderTransformOrigin="0.571,0.326" Grid.RowSpan="2" >
+            <Button Margin="314,274.8,334.2,5" Background="BlueViolet"  FontSize="35" BorderBrush="{x:Null}" Foreground="Black" Click="Button_Click" Content="登录" FontWeight="Bold" Grid.Row="1" />
+            <Button Margin="10,303.8,732.2,0" Click="Button_Click_1" Content="注册账号" FontSize="25" Background="Transparent" Grid.Row="1" ></Button>
+            <ComboBox Margin="291,35.8,259.2,269" SelectionChanged="ComboBox_SelectionChanged" Grid.Row="1"/>
+            <CheckBox Margin="291,182.8,434.2,70" Checked="CheckBox_Checked" Content="自动登录" FontSize="25" Grid.Row="1"></CheckBox>
+            <CheckBox Margin="432,182.8,294.2,70" Content="记住密码" FontSize="25" Grid.Row="1"/>
+            <Button Margin="482,121.8,155.2,86" Content="找回密码" FontSize="25" Background="Transparent" Grid.Row="1"></Button>
+            <TextBox Margin="291,116.8,259.2,188" FontSize="18" Grid.Row="1" />
+            <Image Margin="0,-68,0.2,289" RenderTransformOrigin="0.571,0.326" Grid.RowSpan="2" >
                 <Image.Source>
                     <BitmapImage UriSource="C:\Users\纸飞机\Desktop\vs\1.png"/>
                 </Image.Source>
             </Image>
         </Grid>
-        <Grid Background="White" Width="700" Margin="-813,-74,1048,-173" />
-        <Button Margin="448,608,255.6,-215" Content="发生信息" FontSize="15"></Button>
+        <Grid Background="Blue" Height="550" Width="550" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="-673,181,0,-199" >
+            
+        </Grid>
+      
 
     </Grid>
 </Window>
