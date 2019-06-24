@@ -28,13 +28,17 @@ namespace QQLoginOrDialog
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             Login.Visibility = Visibility.Collapsed;
-            
+            //MessageBox.Show("hello gay");
+            Window1 win1 = new Window1( );
+            win1.ShowDialog( );
+
+
 
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
-
+            
         }
 
         private void ComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
@@ -43,6 +47,11 @@ namespace QQLoginOrDialog
         }
 
         private void CheckBox_Checked(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
         {
 
         }

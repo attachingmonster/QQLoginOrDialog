@@ -1,0 +1,12 @@
+﻿<Window x:Class="QQLoginOrDialog.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:QQLoginOrDialog"
+        mc:Ignorable="d"
+        Title="Window1" Height="544.102" Width="800">
+    <Grid Margin="0,0,-0.4,-95" Height="515" VerticalAlignment="Center">
+        <TextBlock  Text=" Dialog" VerticalAlignment="Center" HorizontalAlignment="Center" Background="Pink" FontSize="52" Foreground="Black" ></TextBlock>
+    </Grid>
+</Window>
