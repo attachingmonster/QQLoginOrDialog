@@ -38,3 +38,11 @@ namespace QQLoginOrDialog
         {
             WindowState = WindowState.Minimized;
         }
+    }
+}
+
+
+
+
+
+    

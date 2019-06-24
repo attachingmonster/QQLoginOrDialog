@@ -5,21 +5,30 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:QQLoginOrDialog"
         mc:Ignorable="d"
-        Title="Window1" Height="675" Width="886.863">
+        Title="Window1" Height="620.71" Width="886.863">
 
 
-    <Grid  Margin="0,10,-0.4,-47.6"  VerticalAlignment="Center" Height="552">
+    <Grid  Margin="0,0,-0.2,-0.8">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="609*"/>
             <ColumnDefinition Width="92*"/>
             <ColumnDefinition Width="170*"/>
             <ColumnDefinition Width="11*"/>
         </Grid.ColumnDefinitions>
-        <TextBlock  Text=" Dialog" VerticalAlignment="Center" HorizontalAlignment="Center" Background="Pink" FontSize="52" Foreground="Black" Margin="93.6,210,-259.4,275" Grid.Column="3" Height="67" Width="177" ></TextBlock>
-        <Button Content="发生（S）" Foreground="White" FontSize="15" Background="Black"  VerticalAlignment="Center" HorizontalAlignment="Center" Margin="594,504,9.8,10" RenderTransformOrigin="2.648,1.757" Height="38" Width="97" Grid.ColumnSpan="2"></Button>
-        <Button Content="关闭" Foreground="White" FontSize="15" Background="Black"  VerticalAlignment="Center" HorizontalAlignment="Center" Height="38" Margin="486,504,19.764,10" Width="103" Click="Button_Shutdown" ></Button>
-        <Button Background="Transparent" Click="Button_Shutdown" Margin="143.2,0,1.6,513" Grid.ColumnSpan="2" Grid.Column="2" />
-        <Button Background="Transparent" Click="Button_Maximized" Margin="97.2,0,31.4,513" Grid.Column="2" ></Button>
-        <Button Background="Transparent" Click="Button_Click"  Margin="53.2,0,77.4,513" Grid.Column="2"  />
+        <Grid.RowDefinitions>
+            <RowDefinition Height="424.8"/>
+            <RowDefinition Height="167.2"/>
+        </Grid.RowDefinitions>
+        <Image Grid.ColumnSpan="4" Margin="-20,-136,-0.2,229.8">
+            <Image.Source>
+                <BitmapImage UriSource="C:\Users\纸飞机\Desktop\vs\图片\top.png"/>
+            </Image.Source>
+        </Image>
+        <Button Content="发生（S）" Foreground="White" FontSize="15" Background="Black"  VerticalAlignment="Center" HorizontalAlignment="Center" Margin="501,129.2,10,0" RenderTransformOrigin="2.648,1.757" Height="38" Width="97" Grid.Row="1"/>
+        <Button Content="关闭" Foreground="White" FontSize="15" Background="Black"  VerticalAlignment="Center" HorizontalAlignment="Center" Height="38" Margin="393,129.2,112,0" Width="103" Click="Button_Shutdown" Grid.Row="1" ></Button>
+        <Button Background="Transparent" Click="Button_Shutdown" Margin="134,0,-0.2,377.8" Grid.Column="2" Grid.ColumnSpan="2" />
+        <Button Background="Transparent" Click="Button_Maximized" Margin="82,0,40.6,377.8" Grid.Column="2" ></Button>
+        <Button Background="Transparent" Click="Button_Click" Margin="34,0,87.6,379.8" Grid.Column="2"/>
+
     </Grid>
 </Window>
