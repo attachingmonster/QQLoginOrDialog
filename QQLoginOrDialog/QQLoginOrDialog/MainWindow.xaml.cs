@@ -25,7 +25,7 @@ namespace QQLoginOrDialog
             InitializeComponent();
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void Button_Login(object sender, RoutedEventArgs e)
         {
             Login.Visibility = Visibility.Collapsed;
             //MessageBox.Show("hello gay");
@@ -38,7 +38,7 @@ namespace QQLoginOrDialog
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
-            
+            Application.Current.Shutdown();
         }
 
         private void ComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)

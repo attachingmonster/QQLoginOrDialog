@@ -23,5 +23,18 @@ namespace QQLoginOrDialog
         {
             InitializeComponent();
         }
-    }
-}
+
+        private void Button_Maximized(object sender, RoutedEventArgs e)
+        {
+            WindowState = WindowState.Maximized;
+        }
+
+        private void Button_Shutdown(object sender, RoutedEventArgs e)
+        {
+            Application.Current.Shutdown();
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            WindowState = WindowState.Minimized;
+        }

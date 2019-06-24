@@ -13,7 +13,7 @@
                 <RowDefinition Height="97*"/>
             </Grid.RowDefinitions>
 
-            <Button Margin="314,274.8,334.2,5" Background="BlueViolet"  FontSize="35" BorderBrush="{x:Null}" Foreground="Black"  Content="登录" FontWeight="Bold" Grid.Row="1" Click="Button_Click" />
+            <Button Margin="314,274.8,334.2,5" Background="BlueViolet"  FontSize="35" BorderBrush="{x:Null}" Foreground="Black"  Content="登录" FontWeight="Bold" Grid.Row="1" Click="Button_Login" />
             <Button Margin="10,303.8,732.2,0" Click="Button_Click_1" Content="注册账号" FontSize="25" Background="Transparent" Grid.Row="1" ></Button>
             <ComboBox Margin="291,35.8,259.2,269" SelectionChanged="ComboBox_SelectionChanged" Grid.Row="1"/>
             <CheckBox Margin="291,182.8,434.2,70" Checked="CheckBox_Checked" Content="自动登录" FontSize="25" Grid.Row="1"></CheckBox>
@@ -25,6 +25,7 @@
                     <BitmapImage UriSource="C:\Users\纸飞机\Desktop\vs\1.png"/>
                 </Image.Source>
             </Image>
+            <Button Background="Transparent" Margin="884,10,10.2,120.2" Click="Button_Click_1" RenderTransformOrigin="0.502,0.502" />
         </Grid>
         
 
